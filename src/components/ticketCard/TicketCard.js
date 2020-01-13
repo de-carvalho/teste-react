@@ -80,7 +80,7 @@ class TicketCard extends Component {
                                             <p className=" text class">{res.BusClass}</p>
                                             <p className=" text preco"><span className="bold">R$ {res.Price}</span></p>
                                             <button className='select-btn' id={res.objectId} onClick={() => this.pegaId(res.objectId)}>ESCOLHER</button>
-                                            <button className='fvrt-btn'  id={`novo-${res.objectId}`} onClick={() => this.remove(res.objectId)}>ESCOLHIDO<i class="fas fa-check"></i></button>
+                                            <button className='fvrt-btn'  id={`novo-${res.objectId}`}>ESCOLHIDO<i class="fas fa-check"></i></button>
                                             {/*este botão deve aparecer no lugar do outro quando o usuário selecionar a passagem que tem interesse */}
                                         </div>
                                     </div>
