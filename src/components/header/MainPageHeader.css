@@ -1,0 +1,87 @@
+.flex{
+    display: flex;
+}
+
+.pattern-navbar {
+    width: 100%;
+    height: 5.5vh;
+    margin-right: 5em;
+    background-color: #E61D41;
+    align-items: center;
+}
+
+.nav-container{
+    width: 70%;
+    justify-content: flex-end;
+}
+
+.link-to {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.fa-heart {
+    margin-top: .2em;
+    margin-right: .5em;
+    color: #fff;
+}
+
+.fa-bars {
+    margin-left: 13em;
+    color: #fff;
+}
+.hamburguerMenu{
+    background: #333;
+    width: 30%;
+    height: 100vh;  
+    position: fixed;
+    transition: transform 1s;
+    color: #fff !important;
+    padding: 1em;
+}
+
+.bolder{
+    font-weight: bolder;
+}
+
+.isClosed {
+    transform: translateX(100%);
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.container__viagens{
+    margin-top: 5%;
+    font-size: 0.8em;
+    line-height: 0.5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.value{
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+.pointer{
+    cursor: pointer;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-space-around{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ml-2{
+    margin-left: 2em;
+}
+
+i{
+    cursor: pointer;
+}

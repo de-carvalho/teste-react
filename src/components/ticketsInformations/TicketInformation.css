@@ -1,0 +1,29 @@
+.ticket-infos {
+    display: flex;
+    width: 120%;
+    height: 6vh;
+    background: #fff 0% 0% no-repeat padding-box;
+    box-shadow: 1px 0px 0px #00000029;
+}
+
+.ticket-container {
+    width: 100%;
+}
+
+.ticket-border-config {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 16em;
+    width: 55%;
+    height: 6vh;
+    color: #747474;
+    opacity: 1;
+}
+
+.border-color {
+    width: 120%;
+    height: 1vh;
+    background-color: #E61D41;
+    border-radius: 5px 5px 0px 0px;
+    opacity: 1;
+}
